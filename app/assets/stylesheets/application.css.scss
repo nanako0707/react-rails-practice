@@ -1,0 +1,11 @@
+@import "semantic-ui";
+
+// overrides for semantic-ui
+.ui.menu .item:before {
+  background: none;
+}
+
+// base
+.main-container {
+  padding-top: 5rem;
+}

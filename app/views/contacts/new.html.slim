@@ -1,0 +1,7 @@
+h1.ui.header.centered
+  | お問い合わせ
+
+.ui.text.container
+  = render 'shared/errors', errors: @contact.errors
+  = react_component('ContactForm', **contact_form_props(@contact, form_authenticity_token))
+

@@ -1,0 +1,7 @@
+- if errors.any?
+  .ui.warning.message
+    .header
+      | 入力内容に誤りがあります
+    ui.list
+      | errors.full_messages.each do |message|
+        li= message
