@@ -7,7 +7,7 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contact_params)
 
     if @contact.save
-      redirect_to :root, notice: t('.success')
+      render :new, notice: t('.success')
     else
       render :new, status: :bad_request
     end

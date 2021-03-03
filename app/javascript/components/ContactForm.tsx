@@ -19,7 +19,7 @@ const ContactForm = ({
         required
         label='名前'
         name='contact[name]'
-        defalutValue={formData['name']}
+        defaultValue={formData['name']}
         type='text' />
 
       <Form.Input

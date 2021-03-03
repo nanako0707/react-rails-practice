@@ -5,7 +5,7 @@ module ContactsHelper
         name: contact.name,
         email: contact.email,
         title: contact.title,
-        content: content.content
+        content: contact.content
       },
       token: token
     }
